@@ -23,8 +23,8 @@ Tests for this module are located in the file: `./test/utils/utils.test.ts`
 
 pragma circom 2.1.9;
 
-include "circomlib/circuits/bitify.circom";
-include "circomlib/circuits/comparators.circom";
+include "../circomlib/bitify.circom";
+include "../circomlib/comparators.circom";
 include "array.circom";
 
 

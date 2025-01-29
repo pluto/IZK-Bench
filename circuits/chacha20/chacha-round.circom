@@ -1,6 +1,6 @@
 // initially from https://github.com/reclaimprotocol/zk-symmetric-crypto
 // modified for our needs
-pragma circom 2.1.9;
+pragma circom 2.1.0;
 
 include "./chacha-qr.circom";
 include "../utils/bits.circom";

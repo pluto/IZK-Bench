@@ -1,12 +1,11 @@
 # IZK-Bench
 
+First thing to do is to conver our circuits to the bristol fasion format. This is done with a tool called [boolify](https://github.com/voltrevo/boolify?tab=readme-ov-file)
 
-## Bristol notes
 
-https://nigelsmart.github.io/MPC-Circuits/
+## [Bristol fasion](https://nigelsmart.github.io/MPC-Circuits/)
 
-first 2 values are number of gates and number of wires
-for example this is the top of an aes circuit in bristol fassion:
+The first 2 values are number of gates and number of wires. For example this is the top of an aes circuit in bristol fassion:
 
 First there is the header which has the following information
 ```

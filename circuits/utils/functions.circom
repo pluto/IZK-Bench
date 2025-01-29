@@ -1,4 +1,4 @@
-pragma circom 2.1.9;
+pragma circom 2.1.0;
 
 function log2Ceil(a) {
     var n = a - 1;

@@ -1,8 +1,8 @@
-pragma circom 2.1.9;
+pragma circom 2.1.0;
 
-include "circomlib/circuits/comparators.circom";
-include "circomlib/circuits/gates.circom";
-include "circomlib/circuits/mux1.circom";
+include "../circomlib/comparators.circom";
+include "../circomlib/gates.circom";
+include "../circomlib/mux1.circom";
 
 /*
 This template is an indicator for two equal array inputs.
